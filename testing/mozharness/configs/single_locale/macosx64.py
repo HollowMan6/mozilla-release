@@ -19,6 +19,8 @@ config = {
         "L10NBASEDIR": "../../l10n",
         "MOZ_MAKE_COMPLETE_MAR": "1",
         "LOCALE_MERGEDIR": "%(abs_merge_dir)s/",
+        'TOOLTOOL_CACHE': '/builds/tooltool_cache',
+        'TOOLTOOL_HOME': '/builds',
     },
     "ssh_key_dir": "~/.ssh",
     "log_name": "single_locale",
@@ -35,7 +37,6 @@ config = {
     'tooltool_script': ["/builds/tooltool.py"],
     'tooltool_bootstrap': "setup.sh",
     'tooltool_manifest_src': 'browser/config/tooltool-manifests/macosx64/releng.manifest',
-
     # balrog credential file:
     'balrog_credentials_file': 'oauth.txt',
 
