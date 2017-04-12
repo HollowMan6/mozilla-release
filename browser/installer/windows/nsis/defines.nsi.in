@@ -8,7 +8,7 @@
 # URLManualDownload, and append the value of URLStubDownloadAppend to
 # URLStubDownload. The value of FunnelcakeVersion should not be defined when it
 # is not used and when it is defined its value should never be empty.
-!define FunnelcakeVersion        "112"
+!define FunnelcakeVersion        "113"
 
 !ifdef FunnelcakeVersion
 !define URLManualDownloadAppend  "&f=${FunnelcakeVersion}"
